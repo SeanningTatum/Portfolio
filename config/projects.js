@@ -22,7 +22,7 @@ export default [
     technologies: ['React', 'React Native', 'Typescript', 'Docker', 'NodeJS', 'MongoDB'],
   },
   {
-    name: 'Bold Health',
+    name: 'Zemedy & Zemy',
     location: 'UK, London',
     description: `
       Zemedy and Zemy are digital therapuetic apps that targets users with IBS and help them embark on their journey to 
