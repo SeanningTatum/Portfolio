@@ -1,7 +1,6 @@
 import Experience from '@components/experience';
 import education from 'config/education';
 import workExperience from 'config/workExperience';
-import Image from 'next/image';
 
 export default function AboutPage() {
   return (
@@ -22,7 +21,6 @@ export default function AboutPage() {
           Some of the technologies I have learned and still learning are
           React, React Native, Flutter, Typescript, NodeJS, Google App Engine, GraphQL,
           TailwindCSS and Prisma 2.0.
-
         </p>
       </div>
 

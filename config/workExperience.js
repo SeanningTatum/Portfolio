@@ -5,6 +5,11 @@ export default [
     duration: 'Apr 2021 - Present',
   },
   {
+    work: 'Innovation Junkie',
+    position: 'Freelancer',
+    duration: 'Feb 2021 - Mar 2021',
+  },
+  {
     work: 'Shoretrade',
     position: 'Software Engineer',
     duration: 'Jul 2020 - Apr 2021',
@@ -12,7 +17,7 @@ export default [
   {
     work: 'Yelsa',
     position: 'Senior Software Engineer',
-    duration: 'Apr 2021 - Present',
+    duration: 'Aug 2020 - Oct 2020',
   },
   {
     work: 'Bold Health',
@@ -21,12 +26,12 @@ export default [
   },
   {
     work: 'Abstract Design Co.',
-    position: 'Software Engineer',
+    position: 'Freelancer',
     duration: 'Sept 2019 - Jan 2020',
   }, {
     work: 'Clockwork Design Co.',
     position: 'Software Engineer',
-    duration: 'Jul 2019 - Aug 2020',
+    duration: 'Jul 2019 - Aug 2019',
   }, {
     work: 'Symph',
     position: 'Software Engineer',

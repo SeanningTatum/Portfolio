@@ -1,5 +1,7 @@
+import Link from 'next/link';
 import Hero from 'components/hero';
-import FeaturedProjects from 'components/featuredProjects';
+import Projects from '@components/projects';
+import projects from 'config/projects';
 
 export default function IndexPage() {
   return (
@@ -12,7 +14,13 @@ export default function IndexPage() {
 
       {/* Projects */}
       <div className="mb-16 sm:mb-36">
-        <FeaturedProjects />
+        <h1 className="text-4xl font-semibold mb-12 text-center">Featured Projects</h1>
+        <Projects projects={projects.slice(0, 3)} />
+        <div className="flex justify-center items-center mt-24 ">
+          <Link href="/work">
+            <a className="p-4 px-6 bg-pink-700 font-mono text-white rounded-md shadow-lg">View all projects</a>
+          </Link>
+        </div>
       </div>
 
     </div>

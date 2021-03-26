@@ -1,12 +1,16 @@
 export default [
   {
-    name: 'Projects',
-    href: '/projects',
+    name: 'Work',
+    href: '/work',
   },
-  {
-    name: 'Blog',
-    href: '/blog',
-  },
+  // {
+  //   name: 'Projects',
+  //   href: '/projects',
+  // },
+  // {
+  //   name: 'Blog',
+  //   href: '/blog',
+  // },
   {
     name: 'About',
     href: '/about',

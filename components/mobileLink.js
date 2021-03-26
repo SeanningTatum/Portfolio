@@ -1,16 +1,16 @@
-import Link from 'next/link';
+import ActiveLink from './activeLink';
 
 function MobileLink({ href, name, onClick }) {
   return (
-    <Link href={href}>
+    <ActiveLink href={href} key={href} activeClassName="text-pink-700 hover:text-pink-700">
       <a
-        className="font-medium text-gray-500 hover:text-gray-900 font-mono mb-12 text-3xl"
+        className="mb-12 text-3xl font-medium text-gray-700 hover:text-gray-900 lowercase"
         onClick={onClick}
 
       >
         {name}
       </a>
-    </Link>
+    </ActiveLink>
   );
 }
 
