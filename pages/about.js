@@ -34,7 +34,7 @@ export default function AboutPage() {
           <div className="font-light flex-1">
             {workExperience.map((experience) => (
               <div className="mb-24" key={experience.work}>
-                <p className="text-2xl ">{experience.work}</p>
+                <p className="text-2xl text-pink-700">{experience.work}</p>
                 <p className="text-lg my-2">{experience.position}</p>
                 <p className="text-lg">{experience.duration}</p>
               </div>
@@ -48,13 +48,13 @@ export default function AboutPage() {
 
           <div className="font-light flex-1">
             <div className="mb-24">
-              <p className="text-2xl">University of San Carlos</p>
+              <p className="text-2xl text-pink-700">University of San Carlos</p>
               <p className="text-lg my-2">BS Computer Science</p>
               <p className="text-lg">Aug 2018</p>
             </div>
 
             <div className="mb-24">
-              <p className="text-2xl">Centre for International Education, British School</p>
+              <p className="text-2xl text-pink-700">Centre for International Education, British School</p>
               <p className="text-lg my-2">Middle School & Highschool</p>
               <p className="text-lg">June 2015</p>
             </div>
