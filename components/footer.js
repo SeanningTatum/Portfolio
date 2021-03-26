@@ -23,8 +23,8 @@ export default function Footer() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-between">
-        <div className="mb-6 mr-6">
+      <div className="flex flex-col justify-center text-center">
+        <div className="mb-6">
           <a href="sendto:seantheurgel@gmail.com" className="text-xl font-medium text-pink-700">seantheurgel@gmail.com</a>
           <p className="text-gray-700 text-sm">Drop me an email, I love my inbox</p>
         </div>
