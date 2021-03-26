@@ -7,10 +7,9 @@ export default function AboutPage() {
       <div className="max-w-xl text-lg font-light mb-16 md:mb-32">
         <h1 className="text-4xl font-semibold mb-8">About me</h1>
         <p className="mb-6">
-          Hello 👋, my name is Sean Urgel and I'm a fullstack developer
-          with a frontend and mobile focus. I love working on my side-projects
-          learning something new everyday, tinkering with new tools and
-          technologies.
+          I'm a fullstack developer with a frontend and mobile focus.
+          I love working on my side-projects learning something new everyday,
+          tinkering with new tools and technologies.
         </p>
         <p className="mb-6">
           I also enjoy volunteering and am a speaker and conduct workshops

@@ -23,5 +23,9 @@ module.exports = {
     'react/prop-types': 0,
     'react/jsx-props-no-spreading': 0,
     'jsx-a11y/anchor-is-valid': 0,
+    // Accessibility
+    'jsx-a11y/click-events-have-key-events': 0,
+    'jsx-a11y/aria-role': 0,
+    'jsx-a11y/no-static-element-interactions': 0,
   },
 };

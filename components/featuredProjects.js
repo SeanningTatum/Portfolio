@@ -26,9 +26,9 @@ function FeaturedProjects() {
         </div>
       ))}
 
-      <div className="flex justify-center items-center mt-24">
+      <div className="flex justify-center items-center mt-24 ">
         <Link href="/projects">
-          <a className="p-4 px-6 bg-pink-700 font-mono text-white rounded-md">View all projects</a>
+          <a className="p-4 px-6 bg-pink-700 font-mono text-white rounded-md shadow-lg">View all projects</a>
         </Link>
       </div>
     </>
