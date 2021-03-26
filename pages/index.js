@@ -20,8 +20,9 @@ export default function IndexPage() {
             and Philippines.
           </p>
           <p className="font-light text-md md:text-lg mb-4">
-            I am also the co-founder of React Cebu and a core member of
-            Google Developer Group Cebu as a speaker on Flutter.
+            I am also a hackathon winner, speaker co-founder for Facebook
+            Developer Group Cebu and a core member of Google Developer Group
+            Cebu for Flutter.
           </p>
         </div>
       </section>
@@ -53,19 +54,37 @@ export default function IndexPage() {
       </div>
 
       {/* Contact */}
-      <section className="flex-col max-w-lg mx-auto justify-center items-center text-center flex mb-16 sm:mb-36">
-        <h1 className="text-3xl font-semibold mb-6">Get in touch</h1>
+      <section className="flex-col mx-auto justify-center items-center text-center flex text-xl md:text-base font-light relative py-10 pb-16 sm:pb-36">
+        <h1 className="text-4xl font-semibold mb-8">Let's work together</h1>
+        <div className="px-12 sm:px-0 mb-6">
+          <p className="mb-2">
+            If you need a
+            {' '}
+            <span className="font-medium">Mobile App</span>
+            ,
+            {' '}
+            <span className="font-medium">Web App</span>
+            {' '}
+            or
+            {' '}
+            <span className="font-medium">Website</span>
+            .
+          </p>
+          <p>
+            Let's ideate, talk and make magic happen. 🪄
+          </p>
+        </div>
 
-        <p className="font-light text-center text-lg mb-4">
-          Although I'm currently not available for hire, my inbox is always open for
-          possible collaboration or just to say hi.
-          {' '}
-          <a href="sendto:seantheurgel@gmail.com" className="text-pink-700">Send me an email</a>
-          {' '}
-          and let's connect.
-        </p>
+        <div className="mb-6">
+          <a href="sendto:seantheurgel@gmail.com" className="text-xl font-medium text-pink-700">seantheurgel@gmail.com</a>
+          <p className="text-gray-500 text-sm">Drop me an email, I love my inbox</p>
+        </div>
+
+        <a href="https://www.linkedin.com/in/sean-urgel/" className="text-xl font-medium text-pink-700">LinkedIn</a>
+        <p className="text-gray-500 text-sm">Let's connect!</p>
 
       </section>
+      <div className="bg absolute bottom-0 left-0" />
     </div>
   );
 }

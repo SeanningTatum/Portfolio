@@ -11,3 +11,9 @@ body {
 section {
     /* min-height: 250px; */
 }
+
+.bg {
+    height: 550px;
+    width: 100%;
+    background-image: url('../svg2.svg');
+}
