@@ -1,8 +1,9 @@
 import Header from './header';
+import Footer from './footer';
 
 export default function Layout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen px-6 sm:px-8 xl:px-0">
+    <div className="flex flex-col min-h-screen px-6 sm:px-8 xl:px-0 relative">
 
       <div className="mt-4">
         <Header />
@@ -12,6 +13,9 @@ export default function Layout({ children }) {
         {children}
       </main>
 
+      <Footer />
+
+      <div className="bg absolute bottom-0 left-0" />
     </div>
   );
 }

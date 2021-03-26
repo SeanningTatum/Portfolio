@@ -16,4 +16,5 @@ section {
     height: 550px;
     width: 100%;
     background-image: url('../svg2.svg');
+    z-index: -100;
 }

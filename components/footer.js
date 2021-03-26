@@ -1,30 +1,41 @@
+import Link from 'next/link';
+
 export default function Footer() {
   return (
-    <footer className="bg-blue-600">
-      <ul className="flex items-center justify-between lg:container px-4 py-6 mx-auto text-sm text-white md:px-6">
-        <li>
-          Created by{" "}
-          <a
-            href="https://taylorbrynat.dev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-bold"
-          >
-            Taylor Bryant
-          </a>
-        </li>
+    <footer className="flex-col mx-auto justify-center items-center text-center flex text-xl font-light relative py-10 pb-16 sm:pb-36">
+      <h1 className="text-4xl font-semibold mb-8">Let's work together</h1>
+      <div className="px-12 sm:px-0 mb-6">
+        <p className="mb-2">
+          If you need a
+          {' '}
+          <span className="font-medium">Mobile App</span>
+          ,
+          {' '}
+          <span className="font-medium">Web App</span>
+          {' '}
+          or
+          {' '}
+          <span className="font-medium">Website</span>
+          .
+        </p>
+        <p>
+          🪄 Let's ideate, brainstorm and make magic happen.
+        </p>
+      </div>
 
-        <li>
-          <a
-            href="https://github.com/oddstronaut/next-starter-tailwind"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-bold"
-          >
-            GitHub
-          </a>
-        </li>
-      </ul>
+      <div className="flex flex-col justify-between">
+        <div className="mb-6 mr-6">
+          <a href="sendto:seantheurgel@gmail.com" className="text-xl font-medium text-pink-700">seantheurgel@gmail.com</a>
+          <p className="text-gray-700 text-sm">Drop me an email, I love my inbox</p>
+        </div>
+
+        <div>
+          <a href="https://www.linkedin.com/in/sean-urgel/" className="text-xl font-medium text-pink-700">LinkedIn</a>
+          <p className="text-gray-700 text-sm">Let's connect!</p>
+        </div>
+      </div>
+
     </footer>
+
   );
 }

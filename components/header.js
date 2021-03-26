@@ -19,11 +19,13 @@ export default function Header() {
           </div>
 
           <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-            <a className="font-medium text-gray-500 hover:text-gray-900 font-mono">Blog</a>
+            <Link href="/projects">
+              <a className="font-medium text-gray-500 hover:text-gray-900 font-mono">Projects</a>
+            </Link>
+            <Link href="/blog">
+              <a className="font-medium text-gray-500 hover:text-gray-900 font-mono">Blog</a>
+            </Link>
 
-            <a className="font-medium text-gray-500 hover:text-gray-900 font-mono">Features</a>
-
-            <a className="font-medium text-gray-500 hover:text-gray-900 font-mono">Projects</a>
             <Link href="/about">
               <a className="font-medium text-gray-500 hover:text-gray-900 font-mono">About</a>
             </Link>
