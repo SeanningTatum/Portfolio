@@ -19,7 +19,7 @@ export default function Footer() {
           .
         </p>
         <p>
-          🪄 Let's ideate, brainstorm and make magic happen.
+          Let's ideate, brainstorm and make magic happen.
         </p>
       </div>
 
