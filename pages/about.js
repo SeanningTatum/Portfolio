@@ -1,3 +1,5 @@
+import Experience from '@components/experience';
+import education from 'config/education';
 import workExperience from 'config/workExperience';
 import Image from 'next/image';
 
@@ -32,11 +34,7 @@ export default function AboutPage() {
 
           <div className="font-light flex-1">
             {workExperience.map((experience) => (
-              <div className="mb-12 md:mb-24" key={experience.work}>
-                <p className="text-2xl text-pink-700">{experience.work}</p>
-                <p className="text-lg my-2">{experience.position}</p>
-                <p className="text-lg">{experience.duration}</p>
-              </div>
+              <Experience {...experience} key={experience.work} />
             ))}
           </div>
         </div>
@@ -46,17 +44,9 @@ export default function AboutPage() {
           <h3 className="text-4xl mb-8 font-semibold flex-1">Education</h3>
 
           <div className="font-light flex-1">
-            <div className="mb-12 md:mb-24">
-              <p className="text-2xl text-pink-700">University of San Carlos</p>
-              <p className="text-lg my-2">BS Computer Science</p>
-              <p className="text-lg">Aug 2018</p>
-            </div>
-
-            <div className="mb-12 md:mb-24">
-              <p className="text-2xl text-pink-700">Centre for International Education, British School</p>
-              <p className="text-lg my-2">Middle School & Highschool</p>
-              <p className="text-lg">June 2015</p>
-            </div>
+            {education.map((experience) => (
+              <Experience {...experience} key={experience.work} />
+            ))}
           </div>
         </div>
       </div>

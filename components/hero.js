@@ -11,7 +11,7 @@ function Hero() {
       <p className="font-light text-lg mb-4">
         I'm a
         {' '}
-        <span className="font-medium">Senior Software Engineer</span>
+        <span className="font-medium text-pink-700">Senior Software Engineer</span>
         {' '}
         that has worked and released apps with numerous
         startups and businesses from United States, UK, Australia, New Zealand, Singapore, China

@@ -29,6 +29,11 @@ export default function Footer() {
           <p className="text-gray-700 text-sm">Drop me an email, I love my inbox</p>
         </div>
 
+        <div className="mb-6">
+          <a href="whatsapp://send?abid=+639985377197&text=Hi%2C%Sean!" className="text-xl font-medium text-pink-700">+63 998 537 197</a>
+          <p className="text-gray-700 text-sm">WhatsApp or Telegram</p>
+        </div>
+
         <div>
           <a href="https://www.linkedin.com/in/sean-urgel/" className="text-xl font-medium text-pink-700">LinkedIn</a>
           <p className="text-gray-700 text-sm">Let's connect!</p>
